@@ -1,0 +1,22 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+    
+    int multiply(int a,int b){
+        int result = 0;
+        if (b ==0){
+            return 0;
+        }
+        else {
+            for (int i = 0; i < b ; i++){
+                result = result + a;
+            }
+        }
+        return result;
+    }
+int main() {
+    int firstNum = 4;
+    int SecondNum = 0;
+    cout << multiply(firstNum,SecondNum);
+    return 0;
+}
